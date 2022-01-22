@@ -1,0 +1,9 @@
+.blogs {
+  width: 18rem;
+  margin: 0 auto;
+}
+
+.blogs-img {
+  height: 300px;
+  object-fit: cover;
+}

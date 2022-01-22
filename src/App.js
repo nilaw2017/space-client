@@ -1,25 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import BlogList from "./components/blog-list/BlogList.component";
+import FbPost from "./components/fb-post-list/fbPost.component";
+import NavBar from "./components/nav-bar/NavBar.component";
+import Tracker from "./components/tracker/Tracker";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <NavBar />
+      <Tracker />
+      <BlogList />
+      <FbPost />
     </div>
   );
 }
-
 export default App;
