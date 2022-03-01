@@ -17,7 +17,7 @@ export default class AboutUsPage extends Component {
                                 </div>
                                 <div className="col-lg-6 mt-5">
                                     <div className="safe-image">
-                                        <img className="img-cover" src="https://templates.hibootstrap.com/ferry/default/assets/img/speciality/speciality2.jpg" alt="image" />
+                                        <img className="img-cover" src="https://templates.hibootstrap.com/ferry/default/assets/img/speciality/speciality2.jpg" alt="blabla" />
                                     </div>
                                 </div>
                             </div>
@@ -25,7 +25,7 @@ export default class AboutUsPage extends Component {
                             <div className="row align-items-center mt-5">
                                 <div className="col-lg-6">
                                     <div className="safe-image">
-                                        <img className="img-cover" src="https://templates.hibootstrap.com/ferry/default/assets/img/speciality/speciality2.jpg" alt="image" />
+                                        <img className="img-cover" src="https://templates.hibootstrap.com/ferry/default/assets/img/speciality/speciality2.jpg" alt="blabla" />
                                     </div>
                                 </div>
                                 <div className="col-lg-6 mt-4">
