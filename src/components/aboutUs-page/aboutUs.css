@@ -1,0 +1,90 @@
+.about-text-area .about-safe-text {
+  margin-bottom: 45px;
+}
+
+.about-text-area .about-safe-text h2 {
+  font-size: 30px;
+  margin-bottom: 15px;
+  line-height: 1.4;
+}
+
+.about-text-area .shipping-card {
+  bottom: 0;
+  position: relative;
+  padding: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  background: none;
+}
+
+.about-text-area .safe-image img {
+  border-radius: 5px;
+}
+
+.about-info-card {
+  margin-bottom: 30px;
+}
+
+.about-info-card h3 {
+  font-size: 24px;
+  padding-bottom: 20px;
+  margin-bottom: 25px;
+  position: relative;
+}
+
+.about-info-card h3::before {
+  content: "";
+  position: absolute;
+  background: #f6b669;
+  width: 55px;
+  height: 5px;
+  left: 0;
+  bottom: 0;
+}
+
+.about-info-card ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.about-info-card ul li {
+  margin-bottom: 10px;
+  padding-left: 30px;
+  position: relative;
+  line-height: 1.6;
+}
+
+.about-info-card ul li:last-child {
+  margin-bottom: 0;
+}
+
+.about-info-card ul li i {
+  position: absolute;
+  background: #fff4e5;
+  color: #f7941d;
+  width: 20px;
+  text-align: center;
+  height: 20px;
+  border-radius: 50%;
+  left: 0;
+  line-height: 20px;
+  top: 2px;
+}
+
+/* SHIPPING AREA */
+.ceo-sign {
+  right: 0;
+}
+
+/* PSEUDO AREA */
+
+.pseudo-left::before {
+  content: "";
+  position: absolute;
+  left: -10px;
+  top: 0;
+  width: 5px;
+  height: 100%;
+  background-color: red;
+}
